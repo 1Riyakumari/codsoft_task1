@@ -1,0 +1,393 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting default font and color */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header styles */
+#header {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav {
+  text-align: center;
+}
+/* Header styles */
+
+.logo {
+  display: inline-block; /* Ensures the image behaves like an inline element */
+  width: 40px; /* Adjust the width as needed */
+  height: auto; /* Ensures the image maintains its aspect ratio */
+  margin-right: 20px; /* Adds spacing between the logo and navigation links */
+  margin-left: 10px;
+}
+
+nav {
+  display: inline-block; /* Aligns the navigation links next to the logo */
+  vertical-align: middle; /* Aligns the navigation links vertically */
+
+}
+
+
+
+
+nav a {
+  margin-right: 80px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+/* About section styles */
+/*#about {
+  padding: 50px 0;
+  display: flex;
+}
+
+
+  .about-col-1 img {
+    width: 250px;
+    height: auto;
+    margin-left: auto; /* Center horizontally 
+    margin-right: auto; /* Center horizontally 
+    display: block; /* Ensures the margin auto works 
+  }
+  
+
+
+.about-col-2 {
+  float: left;
+  width: 50%;
+}
+
+.about-col-1 img {
+  width: 250px;
+  height: auto;
+  margin-left: 200px;
+}
+
+.sub-title {
+  margin-top: 20px;
+}
+
+/* Skills, experience, education tabs 
+.tab-titles {
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.tab-links {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #555;
+}
+
+.tab-links:hover {
+  color: #000;
+}*/
+
+
+
+/* CSS for responsiveness */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container h1{
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-col-1, .about-col-2 {
+  flex: 1;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin-left: 500px;
+  margin-top: 25px;
+}
+
+.sub-title {
+  color: #333;
+}
+
+/* CSS for interactivity */
+.tab-titles {
+  margin-top: 20px;
+  display: flex;
+}
+
+.tab-links {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.tab-links:hover {
+  background-color: #ddd;
+}
+
+.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+
+.skill-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.skill-level {
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Skill level colors */
+.skill .html { width: 95%; background-color: #FF5722; }
+.skill .css { width: 85%; background-color: #2196F3; }
+.skill .javascript { width: 70%; background-color: #FFEB3B; }
+/* Add more colors and widths as needed */
+
+
+/* Projects Section */
+#projects {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  width: calc(33.33% - 20px); /* Adjust width as needed */
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.project-details {
+  padding: 20px;
+}
+
+.project-details h3 {
+  margin-top: 0;
+}
+
+.project-details p {
+  margin-bottom: 15px;
+}
+
+.project-details a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project-details a:hover {
+  background-color: #0056b3;
+}
+
+
+/* Resume Section */
+#resume {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.resume-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.resume-item {
+  width: calc(50% - 20px); /* Adjust width as needed */
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.resume-item h3 {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.resume-details {
+  padding: 20px;
+}
+
+.resume-details h4 {
+  margin-top: 0;
+}
+
+.resume-details p {
+  margin-bottom: 10px;
+}
+.resume-details a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.resume-details a:hover {
+  background-color: #0056b3;
+}
+
+
+/* Talks Section */
+#talks {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.talks-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.talk {
+  width: calc(50% - 20px); /* Adjust width as needed */
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.talk h3 {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.talk p {
+  padding: 10px;
+  margin: 0;
+}
+
+.talk p span {
+  font-weight: bold;
+}
+
+.talk a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.talk a:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Contact Me Section */
+#contact-me {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
